@@ -1,0 +1,8 @@
+Another video game project (snake game) made by a team
+of 3 developers including me.
+I mostly worked on the gameplay part (check Game,
+Snake and Food classes).
+The special feature of this project is that the gameplay
+part and the graphic part are seperable. Therefore,
+any graphic library can be plugged to the gameplay
+part which will still works.

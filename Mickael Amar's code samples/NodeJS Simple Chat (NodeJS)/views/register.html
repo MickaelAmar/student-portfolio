@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-7">
+        <center>
+            <h3>Register Form</h3><br>
+        </center>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<div class="container">
+    <form method="post" class="form-group">
+        <input type="hidden" name="_csrf" value="{{csrfToken}}">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="form-group row">
+                <label class="col-sm-3 form-control-label">Username</label>
+                <div class="col-sm-9">
+                    <input type="text" name="username" required placeholder="Username" class="form-control">
+                </div>
+            </div><br>
+            <div class="form-group row">
+                <label class="col-sm-3 form-control-label">Email</label>
+                <div class="col-sm-9">
+                    <input type="email" name="email" required placeholder="Email" class="form-control">
+                </div>
+            </div><br>
+            <div class="form-group row">
+                <label class="col-sm-3 form-control-label">Password</label>
+                <div class="col-sm-9">
+                    <input type="password" name="password" required placeholder="Password" class="form-control">
+                </div>
+            </div><br>
+            <div class="form-group row">
+                <div class="col-sm-offset-3 col-sm-9">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </form>
+</div>
+<script src="/jquery-3.2.1.min.js"></script>
+<script src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

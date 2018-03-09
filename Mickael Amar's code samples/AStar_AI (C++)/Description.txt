@@ -1,0 +1,11 @@
+This is a C++ class I've been working on implementing
+the "A* pathfinding algorithm" for a video game group
+project (bomberman) made during my early years at school.
+The purpose of it was to give to the enemy bot an AI that
+can automatically chase the player to create some
+competitive feeling.
+
+The full project isn't included to not make the archive to
+heavy but feel free to ask it to me if you want to have
+a global overview of it.
+Most of my work was done on the AI part anyways.

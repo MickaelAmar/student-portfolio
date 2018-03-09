@@ -1,0 +1,5 @@
+A simple Nodejs project that implements a basic 
+auth/register form and a real time chat using 
+express.js, socket.io and mongodb.
+This is a very small project that helped me 
+to learn the basics of nodejs in a weekend.

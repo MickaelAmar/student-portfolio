@@ -1,0 +1,14 @@
+The second one is a sample from an intranet/backoffice
+project I worked on at my last company in France, Axis.
+This is a tool that can generate a Datatable generically
+after selecting a table name from a database using Ajax.
+I find this being a very convenient tool to build quick
+admin interfaces.
+Please note that it was developed using native PHP and in
+accordance of the full project context.
+I don't think I would use native PHP again for this kind
+of project to be honest.
+
+
+Datatable's website :
+https://datatables.net/

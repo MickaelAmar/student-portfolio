@@ -1,0 +1,21 @@
+The code implements a small algorithm trying to determine the solution
+of this problem.
+
+This text below is the answer I submitted to Jaehan Lee :
+
+About the question, the answer seems to depend of the size of
+grid and if it has a limit or not.
+Since it's not mentionned in the question itself, I assume it
+is infinite and the cat can access to an infinite number of coordinates.
+For example let's consider this : (100000000000,990000000000).
+Assuming again that the grid has no limit, this is still an
+accessible coordinate for the cat which means that this pattern
+can be repeated infinitely as long as the sum of the digits aren't exceeding 19.
+But I still made some tests of my own with a limited grid size (99x99)
+and I came to the results that for sum limit of 19, the cat can
+access 5995 points.
+I think it's following what is called the Pascal's Triangle pattern.
+Please, let me know what you think of this answer and/or should
+the question you should be interpreted if you think I'm wrong.
+
+Feel free to check the screenshot.png for a preview of the results.
